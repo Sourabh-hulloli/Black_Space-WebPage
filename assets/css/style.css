@@ -150,5 +150,11 @@ a {
   background-color: var(--bs-secondary-color);
   color: var(--bs-main-color);
 }
+.card-box:hover .icon-span {
+  background-color: #000;
+}
 
+.card-box:hover {
+  background-color: var(--bs-secondary-color);
+}
 /* OUR SERVICE SECTION CSS ENDS HERE */
