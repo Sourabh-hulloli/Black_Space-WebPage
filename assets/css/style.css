@@ -100,7 +100,7 @@ a {
 } */
 
 /* wave css from divider shapes code starts here */
-.custom-shape-divider-bottom-1687595071 {
+.custom-shape-divider-bottom-1687616327 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -110,17 +110,35 @@ a {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1687595071 svg {
+.custom-shape-divider-bottom-1687616327 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 152px;
+  height: 84px;
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1687595071 .shape-fill {
+.custom-shape-divider-bottom-1687616327 .shape-fill {
   fill: #ffffff;
 }
 /* wave css from divider shapes code ends here */
 
 /* hero section ends here */
+
+/* OUR SERVICE SECTION CSS STARTS HERE */
+
+.common-title {
+  margin-bottom: 4.2rem;
+}
+
+.common-heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem !important;
+}
+
+.services-section {
+  padding: 4rem 0 3rem 0 !important;
+}
+
+/* OUR SERVICE SECTION CSS ENDS HERE */
