@@ -83,8 +83,44 @@ li {
   background-color: var(--bs-dark-primary);
 }
 
+.text-light-grey {
+  color: var(--bs-primary-color);
+}
+
+button,
+a {
+  font-size: 1.15rem !important;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.1rem;
+}
+
 /* .bg-theme {
   color: var(--bs-supporting-color);
   background-image: none !important;
 } */
+
+/* wave css from divider shapes code starts here */
+.custom-shape-divider-bottom-1687595071 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1687595071 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 152px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1687595071 .shape-fill {
+  fill: #ffffff;
+}
+/* wave css from divider shapes code ends here */
+
 /* hero section ends here */
