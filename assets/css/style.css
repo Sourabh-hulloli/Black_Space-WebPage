@@ -1,6 +1,9 @@
+/* google fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+/* font awesome cdn link */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 
 * {
   margin: 0;
@@ -139,6 +142,13 @@ a {
 
 .services-section {
   padding: 4rem 0 3rem 0 !important;
+}
+
+.icon-span {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--bs-secondary-color);
+  color: var(--bs-main-color);
 }
 
 /* OUR SERVICE SECTION CSS ENDS HERE */
