@@ -157,4 +157,25 @@ a {
 .card-box:hover {
   background-color: var(--bs-secondary-color);
 }
+
 /* OUR SERVICE SECTION CSS ENDS HERE */
+
+/* DIGITAL PRODUCTS SHOWCASE CSS STARTS HERE */
+
+.more-info-section {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.7),
+      rgba(20, 20, 20, 0.7)
+    ),
+    url(../images/pexels-jakub-novacek-924824.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 6rem 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* DIGITAL PRODUCTS SHOWCASE CSS ENDS HERE */
