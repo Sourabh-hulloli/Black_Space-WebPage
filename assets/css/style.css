@@ -183,7 +183,48 @@ a {
 /* ONLINE MODE SECTION CSS STARTS HERE */
 
 .online-mode-section {
-  padding: 4rem 0 3rem 0 !important;
+  padding: 3rem 0 3rem 0 !important;
+}
+/* ONLINE MODE SECTION CSS ENDS HERE */
+
+/* TESTIMONIAL SECTION CSS STARTS HERE */
+.testimonial-section {
+  padding: 2rem 0 2rem 0 !important;
 }
 
-/* ONLINE MODE SECTION CSS ENDS HERE */
+.carousel {
+  /* border: 2px solid red; */
+}
+
+.carousel .card {
+  background-color: #262631;
+  color: var(--bs-main-color);
+  transition: all 0.3s linear;
+}
+
+.carousel .card p {
+  color: var(--bs-main-color);
+}
+
+.carousel .card:hover {
+  background-color: var(--bs-secondary-color);
+  color: #000;
+}
+
+.carousel .card:hover p {
+  color: #000;
+}
+.fa-star {
+  color: var(--bs-supporting-color);
+}
+
+.carousel-indicators {
+  bottom: -12%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--bs-secondary-color);
+}
+/* TESTIMONIAL SECTION CSS ENDS HERE */
