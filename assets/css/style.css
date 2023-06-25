@@ -214,6 +214,7 @@ a {
 .carousel .card:hover p {
   color: #000;
 }
+
 .fa-star {
   color: var(--bs-supporting-color);
 }
@@ -227,4 +228,22 @@ a {
   height: 0.7rem;
   background-color: var(--bs-secondary-color);
 }
+
+.carousel .card img {
+  height: 30vh;
+}
 /* TESTIMONIAL SECTION CSS ENDS HERE */
+
+/* EXPERT PANEL SECTION CSS STARTS HERE */
+.expert-panel-section {
+  padding: 0 0 3rem 0;
+}
+.card:hover {
+  background-color: var(--bs-secondary-color);
+}
+
+.text-grey {
+  color: grey;
+}
+
+/* EXPERT PANEL SECTION CSS ENDS HERE */
